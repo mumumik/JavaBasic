@@ -71,7 +71,6 @@ public class AndroidPhone {
     
     
     public static void main(String[] args) {
-
         AndroidPhone myPhone = new AndroidPhone();
         Configuration myConfig = new Configuration(); //Object declaration
         Apps myApps = new Apps();
