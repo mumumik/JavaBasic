@@ -41,6 +41,7 @@ public class AndroidPhone {
     }
     
     public void menu(){
+        System.out.println("");
         System.out.println("Android Phone || Welcome..");
         System.out.println("Battery : "+ batteryLevel +" percent.");
         System.out.println("Menu : ");

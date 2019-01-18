@@ -28,8 +28,9 @@ class Apps extends AndroidPhone {
     
     @Override
     public void menu(){
+        System.out.println("");
         System.out.println("App Menu : ");
-        System.out.println("1. Run App ");
+        System.out.println("1. Book App ");
         System.out.println("2. Show today's date/time ");        
         System.out.println("3. Calculate Age ");        
         System.out.println("4. Back ");
@@ -43,7 +44,7 @@ class Apps extends AndroidPhone {
             menu();
             switch(choice){
                 case 1: 
-                    runApp();
+                    books();
                     break;
                 case 2: 
                     showDateTime();
@@ -88,5 +89,11 @@ class Apps extends AndroidPhone {
             System.out.println(e.getMessage());
             
         }
+    }
+    
+    public void books(){
+        System.out.println("Welcome to book app..");
+        Book myBook = new Book();
+        myBook.openMenu();
     }
 }

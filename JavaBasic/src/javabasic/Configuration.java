@@ -47,6 +47,7 @@ class Configuration extends AndroidPhone {
     
     @Override
     public void menu(){
+        System.out.println("");
         System.out.println("Configuration Menu : ");
         System.out.println("1. Set Owner ");
         System.out.println("2. Check phone type ");        
